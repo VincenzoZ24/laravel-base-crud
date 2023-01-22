@@ -19,6 +19,7 @@
                 <td>{{$comic->price}}</td>
                 <td>{{$comic->series}}</td>
                 <td>{{$comic->sale_date}}</td>
+                <td class="btn_visita"><a href="{{route('comics.show', ['comic'=>$comic->id])}}">VISITA</a></td>
             </tr>
             @endforeach
             

@@ -7,6 +7,7 @@
      <li>PREZZO: {{$comic->price}} €</li>
      <li>SERIE: {{$comic->series}}</li>
      <li>DATA: {{$comic->sale_date}}</li>
+     <li>DESCRIZIONE: {{$comic->description}}</li>
    </ul>
   
                     
