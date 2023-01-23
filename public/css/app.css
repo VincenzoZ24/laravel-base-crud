@@ -1,1 +1,14 @@
-
+.btn_visita{
+    background-color: blue;
+    padding: 1rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.btn_elimina{
+    background-color: red;
+    color: white;
+    padding: 1rem;
+    cursor: pointer;
+}

@@ -20,6 +20,13 @@
                 <td>{{$comic->series}}</td>
                 <td>{{$comic->sale_date}}</td>
                 <td class="btn_visita"><a href="{{route('comics.show', ['comic'=>$comic->id])}}">VISITA</a></td>
+                <form action="{{ route('comics.destroy', ['comic' => $comic]) }}" method="POST">
+                    @method('delete')
+
+                    @csrf
+                    <td><button class="btn_elimina">ELIMINA</button> </td>
+                </form>
+                
             </tr>
             @endforeach
             
