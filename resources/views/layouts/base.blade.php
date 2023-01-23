@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
+    @include('partials.nav')
     <h1>@yield('name')</h1>
     @yield('content')
 </body>

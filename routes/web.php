@@ -18,5 +18,5 @@ Route::get('/', 'AdminPagesController@dashboard')->name('admin.dashboard');
 
 Route::resource('comics', 'ComicController');
 
-
+Route::get('/dashboard', 'AdminPagesController@dashboard')->name('dashboard'); 
 
