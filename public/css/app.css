@@ -18,3 +18,15 @@ a{
     padding: 1rem;
     cursor: pointer;
 }
+.btn_aggiungi{
+    background-color: rgb(220, 245, 235);
+    color: rgb(11, 11, 11);
+    padding: 1rem;
+    cursor: pointer;
+    padding: 1rem;
+    margin-top: 6rem;
+}
+.container_btn_aggiungi{
+    margin-top: 2rem;
+    padding: 1rem;
+}

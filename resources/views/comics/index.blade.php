@@ -31,5 +31,10 @@
             @endforeach
             
         </tbody>
+        
     </table>
+    <div class="container_btn_aggiungi">
+        <a href="{{route('comics.create')}}" class="btn_aggiungi">AGGIUNGI</a>
+    </div>
+    
 @endsection
