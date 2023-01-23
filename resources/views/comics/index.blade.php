@@ -26,7 +26,7 @@
                     @csrf
                     <td><button class="btn_elimina">ELIMINA</button> </td>
                 </form>
-                
+                <td><a href="{{route('comics.edit', ['comic' => $comic])}}" class="btn_modifica">MODIFICA</a></td>
             </tr>
             @endforeach
             
